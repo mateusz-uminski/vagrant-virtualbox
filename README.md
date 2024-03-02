@@ -11,7 +11,7 @@ Enjoy!
 1. Vagrant version ~> 2.2.19
 2. Virtualbox
 
-## Usage
+# Usage
 
 ```sh
 CONFIG_FILE=vmachines/default.yaml vagrant up --provision

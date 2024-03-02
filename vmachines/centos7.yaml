@@ -1,0 +1,9 @@
+machines:
+  - name: centos
+    box: centos/7
+    cpu: 2
+    memory: 2048
+    linked_clone: false
+    private_ip: 192.168.56.11  # range: 192.168.56.0/21
+    shell_script_path: provisioning/shell/configure.sh
+    ansible_playbook_path: provisioning/ansible/playbook.yaml
