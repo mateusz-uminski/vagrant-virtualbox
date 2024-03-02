@@ -1,0 +1,13 @@
+name: verify
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  terraform-fmt:
+    uses: mateusz-uminski/github-actions/.github/workflows/vagrant-lint-validate.yaml@main
+    with:
+      vagrant_version: 2.2.19
