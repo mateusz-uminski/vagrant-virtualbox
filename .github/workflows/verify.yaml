@@ -7,7 +7,7 @@ on:
   pull_request:
 
 jobs:
-  terraform-fmt:
+  vagrant-validate:
     uses: mateusz-uminski/github-actions/.github/workflows/vagrant-lint-validate.yaml@main
     with:
       vagrant_version: 2.2.19
